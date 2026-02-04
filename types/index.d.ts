@@ -27,6 +27,7 @@ type Companion = Models.DocumentList<Models.Document> & {
 };
 
 interface CreateCompanion {
+  id: number;
   name: string;
   subject: string;
   topic: string;
